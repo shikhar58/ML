@@ -83,7 +83,7 @@ class DataTransformation:
 
             logging.info("Obtaining preprocessing object")
 
-            preprocessing_obj=self.get_data_transformer_object()
+            preprocessing_obj=self.get_data_transformer_object()  #obje is basically pipeline, an instance of sklearn class
 
             target_column_name="math_score"
             numerical_columns = ["writing_score", "reading_score"]
